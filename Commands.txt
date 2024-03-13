@@ -1,0 +1,3 @@
+dotnet new sln: Create new solution.
+dotnet new webapi -n API: Create the API project.
+dotnet sln add API/: to add the project to the solution
