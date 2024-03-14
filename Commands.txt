@@ -1,3 +1,5 @@
 dotnet new sln: Create new solution.
 dotnet new webapi -n API: Create the API project.
 dotnet sln add API/: to add the project to the solution
+dotnet ef migrations add InitialCreate -o Data/Migrations: Create the inital
+dotnet ef database update: Update the migration database
