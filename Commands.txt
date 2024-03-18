@@ -3,3 +3,5 @@ dotnet new webapi -n API: Create the API project.
 dotnet sln add API/: to add the project to the solution
 dotnet ef migrations add InitialCreate -o Data/Migrations: Create the inital
 dotnet ef database update: Update the migration database
+dotnet ef database drop -p .\Infrastructure -s API: Drop the db
+dotnet ef database drop -p .\Infrastructure -s API: Remove the Migrations files 
